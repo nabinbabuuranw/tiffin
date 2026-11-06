@@ -1,0 +1,32 @@
+{
+  "source": "https://coolors.co/5f0f40-9a031e-fb8b24-e36414-0f4c5c",
+  "name_on_coolors": "popular palette read on 2026-11-06 without logging in (browser read, same route as Day 5); not picked from Nabin's logged-in account",
+  "source_colours": {
+    "plum": "#5F0F40",
+    "chilli": "#9A031E",
+    "saffron": "#FB8B24",
+    "burnt_orange": "#E36414",
+    "deep_teal": "#0F4C5C"
+  },
+  "tokens": {
+    "paper": "#FBF4EA",
+    "surface": "#FFFBF5",
+    "sunk": "#F3E7D7",
+    "line": "#E3D2BD",
+    "line_strong": "#C9B295",
+    "ink": "#2B1020",
+    "muted": "#6A5660",
+    "plum": "#5F0F40",
+    "plum_hover": "#4B0C32",
+    "plum_soft": "#F2E4EC",
+    "saffron": "#FB8B24",
+    "saffron_soft": "#FDE8D1",
+    "ember": "#E36414",
+    "ember_text": "#9C4308",
+    "teal": "#0F4C5C",
+    "teal_soft": "#DDEBEE",
+    "chilli": "#9A031E",
+    "chilli_soft": "#F8E1E4"
+  },
+  "derived_note": "Paper, surface, sunk, lines, ink and muted are derived from the palette (tinted toward warm cream, darkened for text). Ember text is the burnt orange darkened for text contrast. Chilli marks non-veg, teal marks veg and delivered."
+}

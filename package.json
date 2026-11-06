@@ -1,0 +1,35 @@
+{
+  "name": "tiffin",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Tiffin: weekly menus, subscriptions, pause days and delivery routes for tiffin and cloud kitchens in Nepal",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc -p tsconfig.json && tsc -p tsconfig.api.json",
+    "test": "node --test api/test/*.test.ts",
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.api.json && vite build && node api/build.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@fontsource/young-serif": "^5.1.0",
+    "@fontsource-variable/hanken-grotesk": "^5.1.0",
+    "@fontsource/noto-sans-devanagari": "^5.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "esbuild": "^0.21.5",
+    "postcss": "^8.4.49",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11"
+  }
+}
